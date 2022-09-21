@@ -1,0 +1,9 @@
+<div *ngIf="card">
+  <div *ngIf="card">
+      <p>{{card.text}}</p>
+      <div>
+        <label for="card-text">Card text: </label>
+        <input class="form-control" type="text" id="card-text" [(ngModel)]="card.text">
+      </div>
+    </div>
+  </div>

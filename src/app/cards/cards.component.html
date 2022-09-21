@@ -1,0 +1,20 @@
+<section id="Cards" class="bg-light text-dark">
+    <div class="container-lg cardContainer">
+        <div class="row">
+            <div *ngFor="let card of cards" class="col-md-4">
+                <div  class="card col">
+                    <div class="card-body bg-light text-dark" >
+                        <p class="name card-text">{{card.text}}</p>
+                        <button type="button" class="editButton">Edit</button>
+                        <button type="button" class="delete deleteButton" title="delete card" (click)="delete(card)">x</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <label for="new-card">Card Text: </label>
+                <input id="new-card" #cardText  autocomplete="off" />
+                <button type="button" class="add-button AddButton" (click)="add(cardText.value); cardText.value=''">
+                  Add
+                </button>
+              </div>
+        </div>

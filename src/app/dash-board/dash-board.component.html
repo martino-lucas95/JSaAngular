@@ -1,37 +1,6 @@
-<section id="Cards" class="bg-light text-dark">
-    <div class="container-lg cardContainer">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card col">
-                    <div class="card-body bg-light text-dark" >
-                        <h5 class="card-title">Title 1</h5>
-                        <p class="card-text" id="card1">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat illo
-                        </p>
-                        <a href="#" class="fas fa-trash-alt"  data-bs-toggle="modal" data-bs-target="#removeModal"></a>
-                        <a class="fas fa-pencil-alt" onclick="editCard(card1)"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card col">
-                    <div class="card-body bg-light text-dark">
-                        <h5 class="card-title">Title 2</h5>
-                        <p class="card-text" id="card2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat illo
-                        </p>
-                        <a href="#" class="fas fa-trash-alt" data-bs-toggle="modal" data-bs-target="#removeModal"></a>
-                        <a class="fas fa-pencil-alt" onclick="editCard(card2)"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card col">
-                    <div class="card-body bg-light text-dark" >
-                        <h5 class="card-title">Title 3</h5>
-                        <p class="card-text" id="card3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat illo
-                        </p>
-                        <a class="fas fa-trash-alt"  data-bs-toggle="modal" data-bs-target="#removeModal"></a>
-                        <a class="fas fa-pencil-alt" onclick="editCard(card3)"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+<h2>Cards</h2>
+<div class="cards-menu">
+  <a *ngFor="let card of cards">
+    {{card.text}
+  </a>
+</div>

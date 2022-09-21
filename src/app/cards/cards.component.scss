@@ -1,0 +1,71 @@
+
+a {
+    text-decoration: inherit;
+}
+
+.card a:hover{
+    color: #d34836;
+}
+
+.cardContainer{
+    margin-top: 15px;
+}
+
+.card{
+    margin-top: 15px;
+} 
+
+button{
+    background-color: #fff;
+}
+
+/* From uiverse.io by @Custyyyy */
+.deleteButton {
+    display: inline-block;
+    border-radius: 7px;
+    border: none;
+    background: #d34836;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 13px;
+    width: 3em;
+    padding: 1em;
+    transition: all 0.4s;
+    margin: 1px 1px;
+    cursor: pointer;
+   }
+
+.editButton{
+    display: inline-block;
+    border-radius: 7px;
+    border: none;
+    background: #1875FF;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 13px;
+    width: 5em;
+    padding: 1em;
+    transition: all 0.4s;
+    margin: 1px 1px;
+    cursor: pointer;
+   }
+
+   .AddButton{
+    display: inline-block;
+    border-radius: 7px;
+    border: none;
+    background: #076d1a;
+    color: white;
+    font-family: inherit;
+    text-align: center;
+    font-size: 13px;
+    width: 5em;
+    padding: 1em;
+    transition: all 0.4s;
+    margin: 1px 1px;
+    cursor: pointer;
+   }
+
+   
